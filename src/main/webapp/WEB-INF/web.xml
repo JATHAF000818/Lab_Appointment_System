@@ -12,7 +12,7 @@
   </servlet-mapping>
   <display-name>Lab_Appointment_System</display-name>
   <welcome-file-list>
-    <welcome-file>index.html</welcome-file>
+    <welcome-file>login.jsp</welcome-file>
     <welcome-file>index.htm</welcome-file>
     <welcome-file>index.jsp</welcome-file>
     <welcome-file>default.html</welcome-file>
@@ -38,5 +38,45 @@
   <servlet-mapping>
     <servlet-name>Register</servlet-name>
     <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>test_booking</display-name>
+    <servlet-name>test_booking</servlet-name>
+    <servlet-class>test_booking</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>test_booking</servlet-name>
+    <url-pattern>/test_booking</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>test_register</display-name>
+    <servlet-name>test_register</servlet-name>
+    <servlet-class>test_register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>test_register</servlet-name>
+    <url-pattern>/test_register</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>test_result</display-name>
+    <servlet-name>test_result</servlet-name>
+    <servlet-class>test_result</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>test_result</servlet-name>
+    <url-pattern>/test_result</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>doctor</display-name>
+    <servlet-name>doctor</servlet-name>
+    <servlet-class>doctor</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>doctor</servlet-name>
+    <url-pattern>/doctor</url-pattern>
   </servlet-mapping>
 </web-app>

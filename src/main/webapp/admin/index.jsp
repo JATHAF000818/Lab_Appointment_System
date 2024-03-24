@@ -17,7 +17,7 @@
     <!-- inject:css -->
     <!-- endinject -->
     <!-- Layout styles -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/stylee.css">
     <!-- End layout styles -->
     <link rel="shortcut icon" href="../images/favicon.png" />
   </head>
